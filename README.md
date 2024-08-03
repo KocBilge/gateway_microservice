@@ -13,11 +13,12 @@ Bu proje, mikroservis mimarisi için bir **API Gateway** servisi oluşturmaktad�
 Projeyi klonlayın ve gerekli bağımlılıkları yükleyin:
 
 ```bash
+API Gateway'i çalıştırmak için:
+  uvicorn main:app --reload
+Projede yer alan testleri çalıştırmak için:
+  pytest
+
 git clone https://github.com/KocBilge/gateway_microservice.git
 cd gateway_microservice
 pip install -r requirements.txt
 
-## API Gateway'i çalıştırmak için:
-  uvicorn main:app --reload
-## Projede yer alan testleri çalıştırmak için:
-  pytest
